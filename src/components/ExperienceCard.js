@@ -6,7 +6,7 @@ const ExperienceCard = ({ experience }) => {
     <div className="experience-card">
       <h3>{experience.title}</h3>
       <h4>{experience.company}</h4>
-      <p>{experience.duration}</p>
+      <p><strong>Duration:</strong> {experience.duration}</p>
       <p>{experience.description}</p>
     </div>
   );
