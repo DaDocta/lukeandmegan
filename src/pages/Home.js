@@ -10,7 +10,7 @@ const Home = () => {
           I am Lucas Fedders, a dedicated leader, problem solver, and aspiring business professional. My background spans
           hands-on mechanical work as a go-kart mechanic, leadership roles in Young Life, and the discipline of a varsity athlete.
         </p>
-        <a href="/portfolio" className="portfolio-link">Explore My Work</a>
+        <Link to="/portfolio" className="portfolio-link">Explore My Work</Link>
       </div>
     </div>
   );
