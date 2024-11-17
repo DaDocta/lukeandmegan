@@ -1,0 +1,27 @@
+.experience-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    text-align: left;
+  }
+  
+  .experience-card h3 {
+    font-size: 1.5rem;
+    color: #4facfe;
+    margin-bottom: 0.5rem;
+  }
+  
+  .experience-card h4 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .experience-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  

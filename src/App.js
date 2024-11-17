@@ -1,23 +1,24 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LukeHome from './pages/LukeHome';
-import MeganHome from './pages/MeganHome';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
+import './styles/App.css';
 
-const App = () => {
-    const hostname = window.location.hostname;
-
-    return (
-        <Router>
-            <Routes>
-                {hostname === 'lukefedders.site' ? (
-                    <Route path="/" element={<LukeHome />} />
-                ) : (
-                    <Route path="/" element={<MeganHome />} />
-                )}
-                {/* Additional routes can go here */}
-            </Routes>
-        </Router>
-    );
-};
+function App() {
+  return (
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
+  );
+}
 
 export default App;
