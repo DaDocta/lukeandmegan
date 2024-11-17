@@ -1,6 +1,6 @@
 import React from 'react';
 import ExperienceCard from '../components/ExperienceCard';
-import './Experience.css';
+import '../styles/Experience.css';
 
 const experiences = [
   {

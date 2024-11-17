@@ -1,5 +1,5 @@
 import React from 'react';
-import './SkillsCard.css';
+import '../styles/SkillsCard.css';
 
 const SkillsCard = ({ skill }) => {
   return (

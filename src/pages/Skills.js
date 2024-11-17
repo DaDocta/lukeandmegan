@@ -1,6 +1,6 @@
 import React from 'react';
 import SkillsCard from '../components/SkillsCard';
-import './Skills.css';
+import '../styles/Skills.css';
 
 const skills = [
   { name: 'Mechanics', level: 'Advanced' },
