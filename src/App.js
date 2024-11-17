@@ -8,7 +8,7 @@ import './styles/App.css';
 
 function App() {
   return (
-    <Router basename="/portfolio"> {/* Add basename */}
+    <Router>
       <div className="App">
         <Navbar />
         <Routes>
